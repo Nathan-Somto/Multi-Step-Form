@@ -1,0 +1,30 @@
+.message__container{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+.message__title{
+    font-size: 2rem;
+    color:var(--marine-blue);
+    font-weight:700;
+    margin-top:calc(var(--base-margin) + 0.25rem );
+}
+.message__paragraph{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:calc(var(--base-margin) + 0.25rem );
+    font-size: 1rem;
+    color:var(--cool-gray);
+    line-height: 20px;
+    overflow-wrap: break-word;
+}
+@media (min-width:1000px){
+    .message__container{
+        width:90%;
+        margin-left:auto;
+    }
+}

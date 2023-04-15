@@ -1,0 +1,77 @@
+
+:root{
+  --marine-blue:hsl(213, 96%, 18%);
+  --purplish-blue:hsl(243, 100%, 62%);
+  --pastel-blue:hsl(228, 100%, 84%);
+  --light-blue:hsl(206, 94%, 87%);
+  --strawberry-red:hsl(354, 84%, 57%);
+  --cool-gray:hsl(231, 11%, 63%);
+  --light-gray:hsl(229, 24%, 87%);
+  --magnolia:hsl(217, 100%, 97%);
+  --Alabaster: hsl(231, 100%, 99%);
+ --white: hsl(0, 0%, 100%);
+ --base-padding:0.25rem;
+ --base-margin:0.25rem;
+}
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Ubuntu-Bold';
+  font-weight:700;
+  src: url('./assets/fonts/Ubuntu-Bold.ttf');
+}
+h1,h2,h3,h4,h5,h6,p,figure{
+  margin:0;
+  padding:0;
+}
+img{
+  display:block;
+max-width:100%;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+li{
+  list-style-type: none;
+}
+body{
+  font-size: 62.5%;
+  margin:0;
+  padding:0;
+  text-rendering: optimizeLegibility;
+  width:100%;
+  max-width:1280px;
+  font-family: 'Ubuntu-Bold';
+  min-height: 100vh;
+  background-color: var(--light-blue);
+}
+body,html{
+  overflow-x:hidden;
+}
+h1{
+  font-size:3rem;
+}
+h2{
+  font-size: 2.65rem;
+}
+h3{
+  font-size: 2.25rem;
+}
+p,a,div{
+  font-size: 1.4rem;
+}
+#app{
+  width:100%;
+
+}
+.none{
+  display:none;
+}
+@media (min-width:1000px){
+  body{
+    display:grid;
+    place-items: center;
+  }
+}

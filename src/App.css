@@ -1,0 +1,23 @@
+.App__container{
+   
+    
+    margin: 0 auto;
+    min-height:120vh;
+    height:auto;
+   
+}
+.info__sub--heading, .addons__sub--heading, .plans__sub--heading, .summary__sub--heading{
+    width:80%;
+    overflow-wrap: break-word;
+}
+@media (min-width:1000px){
+    .App__container{
+        display: grid;
+        background-color: var(--Alabaster);
+        width:80%;
+        height:500px;
+        min-height: 500px;
+        grid-template-columns: 1fr 3fr;
+        border-radius:calc( var(--base-padding) + 0.25rem);
+    }
+}

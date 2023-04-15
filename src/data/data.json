@@ -1,0 +1,70 @@
+{
+  "Sidebar": [
+    {
+      "step": "1",
+      "paragraph": "Your Info"
+    },
+    {
+      "step": "2",
+      "paragraph": "Select plan"
+    },
+    {
+      "step": "3",
+      "paragraph": "Add-ons"
+    },
+    {
+      "step": "4",
+      "paragraph": "Summary"
+    }
+  ],
+  "Info": {
+    "heading": "Personal info",
+    "subHeading": "Please provide your name, email address, and phone number.",
+    "input": [
+      { "field": "Name", "placeholder": "e.g. Stephen King" },
+      { "field": "Email Address", "placeholder": "e.g. stephenking@lorem.com" },
+      { "field": "Phone Number", "placeholder": "e.g. +1 234 567 890" }
+    ]
+  },
+  "Addons": {
+    "heading": "Pick add-ons",
+    "subHeading": "Add-ons help enhance your gaming experience.",
+    "card": [
+      {
+        "title": "Online service",
+        "subTitle": "Access to multiplayer games",
+        "month": "1",
+        "year": "10"
+      },
+      {
+        "title": "Larger Space",
+        "subTitle": "Extra 1TB of Cloud save",
+        "month": "1",
+        "year": "20"
+      },
+      {
+        "title": "Customizable Profile",
+        "subTitle": "Custom theme on your profile",
+        "month": "2",
+        "year": "20"
+      }
+    ]
+  },
+  "Plans": {
+    "heading": "Select your plan",
+    "subHeading": "You have the option of monthly or yearly billing.",
+    "card": [
+      { "title": "Arcade", "month": "9", "year": "90" },
+      { "title": "Advanced", "month": "12", "year": "120" },
+      { "title": "Pro", "month": "15", "year": "150" }
+    ]
+  },
+  "Summary": {
+    "heading": "Finishing up",
+    "subHeading": "Double-check everything looks OK before confirming."
+  },
+  "Message": {
+    "title": "Thank you!",
+    "paragraph": "Thanks for confirming your subscription! We hope you have fun using our platform. If you ever need support, please feel free to email us at support@loremgaming.com."
+  }
+}

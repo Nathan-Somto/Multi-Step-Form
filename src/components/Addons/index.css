@@ -1,0 +1,103 @@
+.addons__heading{
+    font-size: 2rem;
+    color:var(--marine-blue);
+    font-weight:700;
+}
+.addons__sub--heading{
+    font-size:1.05rem;
+    font-weight:400;
+    color:var(--cool-gray);
+    margin-top: calc(var(--base-margin) + 0.15rem);
+}
+.addons__check{
+    margin-top:15px;
+}
+.addons__check--container{
+    display:flex;
+    position: relative;
+    justify-content: space-between;
+    align-items:center;
+    background-color:transparent;
+    height:90px;
+    padding: calc(var(--base-padding) + 0.75rem) calc(var(--base-padding) + 0.55rem);
+    border: 1px solid var(--cool-gray);
+    width:90%;
+    border-radius:calc(var(--base-padding) + 0.25rem);
+    margin-bottom: calc(var(--base-margin) + 0.2rem);
+    transition: all ease-out 0.35s;
+    cursor:pointer;
+}
+.addons__check--container:hover{
+    border-color:var(--purplish-blue);
+}
+.check--active{
+background-color: var(--light-blue);
+opacity:0.95;
+border-color: var(--purplish-blue);
+}
+.check--active .addons__check--box{
+    background-color:var(--purplish-blue);
+    color:var(--white);
+    font-weight:700;
+}
+.addons__check--title{
+    font-size:1.15rem;
+    color:var(--marine-blue);
+    font-weight:700;
+}
+.addons__check--subtitle{
+    color:var(--cool-gray);
+    font-weight: 400;
+    font-size: 1rem;
+}
+.addons__check--box{
+    position: absolute;
+    z-index:3;
+    left:5%;
+    width:20px;
+    height:20px;
+    background-color: transparent;
+    padding: var(--base-padding);
+    border-radius: calc(var(--base-padding) + 0.05rem);
+    cursor:pointer;
+    border:1px solid var(--cool-gray);
+}
+.addons__check--time{
+    color:var(--purplish-blue);
+    font-weight: 700;
+    font-size:1rem;
+}
+.addons__check--text{
+    flex-shrink:0;
+    width:60%;
+    margin-left: 10%;
+}
+@media (min-width:1000px){
+    .addons__container{
+        padding-top:8%;
+        width:90%;
+        margin-left:auto;
+    }
+    .addons__check{
+        margin-top:5%;
+        margin-bottom: 3.5%;
+    }
+    .addons__check--container{
+        height:auto;
+    }
+   
+}
+@media (max-width:500px){
+    .addons__heading{
+        font-size:1.5rem;
+    }
+    .addons__sub--heading{
+        font-size: 0.9rem;
+    }
+    .addons__check--title{
+        font-size:0.9rem;
+    }
+    .addons__check--subtitle,.addons__check--time{
+        font-size: 0.85rem;
+    }
+}

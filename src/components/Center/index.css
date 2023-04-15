@@ -1,0 +1,12 @@
+@media (max-width:999px){
+    .center__container{
+    position: relative;
+    top: 120px;
+    width: 80%;
+    margin: 0 auto;
+    padding:1.5rem;
+    min-height: 353px;
+    background-color: #fff;
+    border-radius: 12px;
+    }
+}
